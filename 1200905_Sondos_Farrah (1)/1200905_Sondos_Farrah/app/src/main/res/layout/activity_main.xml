@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/cloud1"
+        android:layout_width="205dp"
+        android:layout_height="143dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/cloud" />
+
+    <ImageView
+        android:id="@+id/sun"
+        android:layout_width="176dp"
+        android:layout_height="123dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="648dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/sun" />
+
+    <ImageView
+        android:id="@+id/cloud2"
+        android:layout_width="201dp"
+        android:layout_height="146dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="624dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/cloud" />
+    <ImageView
+        android:id="@+id/trafficLightWhite"
+        android:layout_width="104dp"
+        android:layout_height="173dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="496dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/traffic_light_white" />
+    <ImageView
+        android:id="@+id/trafficLight"
+        android:layout_width="104dp"
+        android:layout_height="173dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="496dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/traffic_light" />
+
+    <ImageView
+        android:id="@+id/earth"
+        android:layout_width="309dp"
+        android:layout_height="344dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="60dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/earth" />
+
+    <ImageView
+        android:id="@+id/rock"
+        android:layout_width="82dp"
+        android:layout_height="71dp"
+
+        android:layout_marginStart="172dp"
+        android:layout_marginBottom="144dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/rock" />
+
+    <ImageView
+        android:id="@+id/car"
+        android:layout_width="76dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="224dp"
+        android:layout_marginEnd="172dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/car" />
+</androidx.constraintlayout.widget.ConstraintLayout>
